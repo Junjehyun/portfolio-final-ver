@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Meta tag -->
+  <meta name="description" content="Portfolio website">
+  <meta name="author" content="Jehyun">
+
+  <!-- Title -->
+  <title>Created by Junjehyun</title>
+
+<!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/9eb162ac0d.js" 
+  crossorigin="anonymous"></script>
+
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap" 
+rel="stylesheet">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="image/goku.png">
+
+<!-- CSS & JSlink -->
+<link rel="stylesheet" href="style.css">
+<script defer src="main.js" ></script>
+
+</head>
+  <!--Start coding-->
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <i class="fas fa-laptop-code"></i>
+      <a href="#">Portfolio Webpage</a>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu__item active" data-link="#home">Home</li>
+      <li class="navbar__menu__item" data-link="#about">About</li>
+      <li class="navbar__menu__item" data-link="#skills">Skill</li>
+      <li class="navbar__menu__item" data-link="#work">Project</li>
+      <li class="navbar__menu__item" data-link="#contact">Contact</li>
+    </ul>
+
+    <!-- Toggle button -->
+    <button class="navbar__toggle-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <div class="home__container">
+      <img
+        src="image/goku.png"
+        alt="Portfolio Pic"
+        class="home__avatar"/> 
+      <h1 class="home__title">初めまして。ジョン・ジェヒョンと申します。よろしくお願い致します。</h1>
+      <h2 class="home__description">
+        貴社に志願させていただくために 私の保有スタックとプロジェクトを紹介させていただきます。
+      </h2>
+      <button class="home__contact">Contact Me</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h1>主要フロントエンド技術スタックです。</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.</br> Iure possimus
+      rem sequi? Nihil, est impedit dignissimos consequatur totam,</br> odit
+      deserunt doloremque laudantium similique corrupti, iusto optio rerum in
+      deleniti officia.
+    </p>
+    <div class="about__majors">
+      <div class="major">
+        <div class="major__icon">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-vuejs"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-node-js"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="section__container">
+      <h1>スキルのレベルです。</h1>
+      <h2>全ての事が100％になるまで現在も一日一日一生懸命しています。</h2>
+    <div class="skillset">
+      <div class="skillset__center">
+        <div class="skill">
+          <div class="skill__description">
+            <span>Speaking Japanese</span>
+            <span>80%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value"  
+            style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>HTML & CSS(+SCSS)</span>
+            <span>90%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" 
+            style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>Javascript</span>
+            <span>85%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value"  
+            style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>Typescript</span>
+            <span>80%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" 
+            style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>React.js</span>
+            <span>80%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value"
+            style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>Vue.js</span>
+            <span>70%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" 
+            style="width: 70%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>Node.js</span>
+            <span>75%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value"  
+            style="width: 75%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>Python</span>
+            <span>50%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value"  
+            style="width: 50%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="section">
+    <h1>プロジェクトリスト</h1>
+    <h2>プロジェクトの詳細説明は下段のギットハブのリンクに添付しました。</h2>
+    <div class="services__wrapper">
+      <div class="services__card">
+        <h2>Starbucks Landing Page</h2>
+        <h2>Made 21.04 KR.ver</h2>
+        <p>HTML, CSS, Javascript</p>
+        <a href="https://junjehyun.github.io/Project_the1stofStarbucks/" 
+        class="services__btn" target="_blank"><button>見る</button></a>
+      </div>
+      <div class="services__card">
+        <h2>Kakaotalk clone</h2>
+        <h2>Made 21.05 JP.ver</h2>
+        <p>HTML, CSS</p>
+        <a href="https://junjehyun.github.io/Project_the2ndofClone/" 
+        class="services__btn" target="_blank"><button>見る</button></a>
+      </div>
+      <div class="services__card">
+        <h2>Shopping Mall Website</h2>
+        <h2>準備中</h2>
+        <p>React.js</p>
+        <div class="services__btn"><button>見る</button></div>
+      </div>
+      <div class="services__card">
+        <h2>My book Library</h2>
+        <h2>準備中</h2>
+        <p>React.js + Typescript</p>
+        <div class="services__btn"><button>見る</button></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h1 class="contact__title">ご連絡先</h1>
+    <h2 class="contact__email">メールアドレス: h94051987@gmail.com</h2>
+    <h2 class="contact__tel">携帯: +82 10-9405-1987</h2>
+    <div class="contact__links">
+      <a href="https://github.com/Junjehyun" 
+      target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href= "mailto:h94051987@gmail.com" 
+        target="_blank">
+        <i class="far fa-envelope"></i>
+      </a>
+      <a href="javascript:void(0)">
+        <i class="fab fa-line"></i>
+      </a>
+      <a href="javascript:void(0)">
+        <i class="fas fa-comment"></i>
+      </a>
+    </div>
+    <p class="contact__rights">2021 Portfolio. All rights reserved</p>
+  </section>
+
+  <!-- Arrow up Button -->
+  <button class="arrow-up">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+
+</body>
+</html>
